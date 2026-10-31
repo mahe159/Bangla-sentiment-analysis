@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+# Trained models and datasets are NOT committed (see README: dataset license)
+models/*.joblib
+data/
+*.egg-info/
+.DS_Store

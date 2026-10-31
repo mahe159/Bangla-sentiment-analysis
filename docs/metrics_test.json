@@ -1,0 +1,53 @@
+{
+  "n": 31614,
+  "accuracy": 0.8318782817738977,
+  "macro_f1": 0.5897911862220031,
+  "per_class": {
+    "negative": {
+      "precision": 0.5586854460093896,
+      "recall": 0.6764857881136951,
+      "f1": 0.6119682094436653,
+      "support": 1935
+    },
+    "neutral": {
+      "precision": 0.16699850671976108,
+      "recall": 0.49301983835415136,
+      "f1": 0.24948875255623723,
+      "support": 1361
+    },
+    "positive": {
+      "precision": 0.9630142953312478,
+      "recall": 0.8587823998869977,
+      "f1": 0.9079165966661067,
+      "support": 28318
+    }
+  },
+  "confusion_matrix": [
+    [
+      1309,
+      205,
+      421
+    ],
+    [
+      177,
+      671,
+      513
+    ],
+    [
+      857,
+      3142,
+      24319
+    ]
+  ],
+  "class_order": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "model_kind": "logreg",
+  "baseline_majority": {
+    "accuracy": 0.8957423926108686,
+    "macro_f1": 0.3150014460833389,
+    "predicts": "positive"
+  }
+}
